@@ -1,0 +1,24 @@
+{
+  "name": "key-value-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "key-value": "./bin/index.js"
+  },
+  "scripts": {
+    "install": "sudo npm install --location=global",
+    "uninstall": "sudo npm uninstall --location=global",
+    "test": "mocha"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.1"
+  }
+}
